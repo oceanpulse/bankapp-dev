@@ -1,5 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`]
+app).
 ## Getting Started
 
 First, run the development server:
@@ -14,23 +14,13 @@ pnpm dev
 bun run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# IMPORTANT: I have deliberately left all environment variables in the codebase for the purpose of this test, it is strictly for education purpose.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is a development project, using third party sanbox APIs. To get the most out of this project, you need follow these steps.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#1 Sign up with an email and password. There is form validation so make sure your password is 8 characters long. Use a address and location from New York.
+#2 Once you are signed up, you will be redirected to the dashboard. Try adding a new bank account by clicking on "connect bank", chose chase bank savings.
+#3 Once you have added a bank account, try transfering funds from your checking account to your savings account. Go to "My Banks" and copy the shareable ID of savings account (the long string of characters and numbers).
+#4 Go to "Transfer Funds" and fill out the transfer funds form. paste the shareable ID of the savings account in the "To" field. Enter an amount and click on "Transfer Funds". Make sure the amount looks something like this (5.00 or 10.00 or 50.00)
+#5 You will be redirected to the dashboard. You should see the transfer in the "Transactions" section.
+6# Note -  transfers will only take affect after two days as this was to replicate a real world banking in the USA.
